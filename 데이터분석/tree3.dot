@@ -1,0 +1,24 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="DEBTINC <= 42.032\nsamples = 2604\nvalue = [2362, 242]\nclass = 0", fillcolor="#e58139e5"] ;
+1 [label="DELINQ <= 0.135\nsamples = 2404\nvalue = [2233, 171]\nclass = 0", fillcolor="#e58139eb"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="CLAGE <= 182.08\nsamples = 2031\nvalue = [1922, 109]\nclass = 0", fillcolor="#e58139f1"] ;
+1 -> 2 ;
+3 [label="MORTDUE <= 64349.5\nsamples = 1092\nvalue = [1002, 90]\nclass = 0", fillcolor="#e58139e8"] ;
+2 -> 3 ;
+4 [label="samples = 524\nvalue = [460, 64]\nclass = 0", fillcolor="#e58139dc"] ;
+3 -> 4 ;
+5 [label="samples = 568\nvalue = [542, 26]\nclass = 0", fillcolor="#e58139f3"] ;
+3 -> 5 ;
+6 [label="YOJ <= 11.5\nsamples = 939\nvalue = [920, 19]\nclass = 0", fillcolor="#e58139fa"] ;
+2 -> 6 ;
+7 [label="samples = 586\nvalue = [568, 18]\nclass = 0", fillcolor="#e58139f7"] ;
+6 -> 7 ;
+8 [label="samples = 353\nvalue = [352, 1]\nclass = 0", fillcolor="#e58139fe"] ;
+6 -> 8 ;
+9 [label="samples = 373\nvalue = [311, 62]\nclass = 0", fillcolor="#e58139cc"] ;
+1 -> 9 ;
+10 [label="samples = 200\nvalue = [129, 71]\nclass = 0", fillcolor="#e5813973"] ;
+0 -> 10 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
