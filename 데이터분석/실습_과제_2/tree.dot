@@ -1,0 +1,36 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="ROLLING_TEMP_T5 <= 1000.5\nsamples = 499\nvalue = [332, 167]\nclass = 0", fillcolor="#e581397f"] ;
+1 [label="HSB_적용 <= 0.5\nsamples = 386\nvalue = [332, 54]\nclass = 0", fillcolor="#e58139d6"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="samples = 20\nvalue = [0, 20]\nclass = 1", fillcolor="#399de5ff"] ;
+1 -> 2 ;
+3 [label="FUR_SZ_TEMP <= 1175.5\nsamples = 366\nvalue = [332, 34]\nclass = 0", fillcolor="#e58139e5"] ;
+1 -> 3 ;
+4 [label="ROLLING_DESCALING <= 9.5\nsamples = 351\nvalue = [332, 19]\nclass = 0", fillcolor="#e58139f0"] ;
+3 -> 4 ;
+5 [label="ROLLING_DESCALING <= 8.5\nsamples = 194\nvalue = [175, 19]\nclass = 0", fillcolor="#e58139e3"] ;
+4 -> 5 ;
+6 [label="PT_LTH <= 20806.5\nsamples = 184\nvalue = [175, 9]\nclass = 0", fillcolor="#e58139f2"] ;
+5 -> 6 ;
+7 [label="samples = 98\nvalue = [98, 0]\nclass = 0", fillcolor="#e58139ff"] ;
+6 -> 7 ;
+8 [label="ROLLING_DESCALING <= 7.5\nsamples = 86\nvalue = [77, 9]\nclass = 0", fillcolor="#e58139e1"] ;
+6 -> 8 ;
+9 [label="FUR_SZ_TIME <= 74.5\nsamples = 34\nvalue = [25, 9]\nclass = 0", fillcolor="#e58139a3"] ;
+8 -> 9 ;
+10 [label="samples = 7\nvalue = [0, 7]\nclass = 1", fillcolor="#399de5ff"] ;
+9 -> 10 ;
+11 [label="samples = 27\nvalue = [25, 2]\nclass = 0", fillcolor="#e58139eb"] ;
+9 -> 11 ;
+12 [label="samples = 52\nvalue = [52, 0]\nclass = 0", fillcolor="#e58139ff"] ;
+8 -> 12 ;
+13 [label="samples = 10\nvalue = [0, 10]\nclass = 1", fillcolor="#399de5ff"] ;
+5 -> 13 ;
+14 [label="samples = 157\nvalue = [157, 0]\nclass = 0", fillcolor="#e58139ff"] ;
+4 -> 14 ;
+15 [label="samples = 15\nvalue = [0, 15]\nclass = 1", fillcolor="#399de5ff"] ;
+3 -> 15 ;
+16 [label="samples = 113\nvalue = [0, 113]\nclass = 1", fillcolor="#399de5ff"] ;
+0 -> 16 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
