@@ -4,7 +4,8 @@
 
 API문서는 자주 확인하자
 - https://www.tensorflow.org/api_docs/python/tf
-- &nbsp ```python
+- &nbsp 
+```python
 tf.layers.dense(
     inputs,
     units,
