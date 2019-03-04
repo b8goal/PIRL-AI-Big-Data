@@ -4,7 +4,7 @@
 
 API문서는 자주 확인하자
 - https://www.tensorflow.org/api_docs/python/tf
-- &nbsp 예전에는 activation=Relu로 되어있었는데 None으로 변경되었다. 
+- &nbsp;예전에는 activation=**Relu**로 되어있었는데 **None**으로 변경되었다. 
 ```python
 tf.layers.dense(
     inputs,
