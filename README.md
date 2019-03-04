@@ -4,3 +4,21 @@
 
 API문서는 자주 확인하자
 - https://www.tensorflow.org/api_docs/python/tf
+&nbsp '''python
+tf.layers.dense(
+    inputs,
+    units,
+    activation=None,
+    use_bias=True,
+    kernel_initializer=None,
+    bias_initializer=tf.zeros_initializer(),
+    kernel_regularizer=None,
+    bias_regularizer=None,
+    activity_regularizer=None,
+    kernel_constraint=None,
+    bias_constraint=None,
+    trainable=True,
+    name=None,
+    reuse=None
+)
+'''
