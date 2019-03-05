@@ -26,3 +26,4 @@ tf.layers.dense(
 
 참고 사이트
 - [TensorFlow-Examples] https://github.com/aymericdamien/TensorFlow-Examples
+- [다양한 예제] https://www.github.com/aymericdamien
