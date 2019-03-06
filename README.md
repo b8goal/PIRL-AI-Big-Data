@@ -27,3 +27,30 @@ tf.layers.dense(
 참고 사이트
 - [TensorFlow-Examples] https://github.com/aymericdamien/TensorFlow-Examples
 - [다양한 예제] https://www.github.com/aymericdamien
+
+경고창 무시 방법
+```
+import warnings
+warnings.filterwarnings('ignore')
+```
+
+텐서플로 GPU 가상환경 설치 [tensorlofw-gpu]
+```
+conda create --name tf tensorflow-gpu
+source activate tf
+```
+
+텐서플로 Device 환경 확인
+```
+from tensorflow.python.client import device_lib
+device_lib.list_local_devices()
+```
+
+텐서플로 글꼴설정
+- User 폴더에서 실행해야합니다.
+```
+cd .jupyter
+mkdir custom
+vi custom.css
+.CodeMirror pre {font-family: Arial; font-size: 14pt; line-height: 140%;}
+```
