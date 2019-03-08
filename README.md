@@ -2,7 +2,7 @@
 
 ### Posco & Postech AI & Big Data Academy
 
-API문서는 자주 확인하자
+### API문서는 자주 확인하자
 - https://www.tensorflow.org/api_docs/python/tf
 - 예전에는 activation=**Relu**로 되어있었는데 **None**으로 변경되었다.<br> 확인하는 습관을 기르자.
 ```python
@@ -24,29 +24,29 @@ tf.layers.dense(
 )
 ```
 
-참고 사이트
+### 참고 사이트
 - [TensorFlow-Examples] https://github.com/aymericdamien/TensorFlow-Examples
 - [다양한 예제] https://www.github.com/aymericdamien
 
-경고창 무시 방법
+### 경고창 무시 방법
 ```
 import warnings
 warnings.filterwarnings('ignore')
 ```
 
-텐서플로 GPU 가상환경 설치 [tensorlofw-gpu]
+### 텐서플로 GPU 가상환경 설치 [tensorlofw-gpu]
 ```
 conda create --name tf tensorflow-gpu
 source activate tf
 ```
 
-텐서플로 Device 환경 확인
+### 텐서플로 Device 환경 확인
 ```
 from tensorflow.python.client import device_lib
 device_lib.list_local_devices()
 ```
 
-텐서플로 글꼴설정
+### 텐서플로 글꼴설정
 - User 폴더에서 실행해야합니다.
 ```
 cd .jupyter
@@ -55,7 +55,8 @@ vi custom.css
 .CodeMirror pre {font-family: Arial; font-size: 14pt; line-height: 140%;}
 ```
 
-### 원격 데스크톱 가상환경이 세팅된 상황에서 jupyter notebook을 사용하고 싶은데, 가상환경 커널이 추가되지 않았을때
+### 원격 데스크톱 가상환경이 세팅된 상황에서 jupyter notebook을 사용하고 싶은데,<br>
+### 가상환경 커널이 추가되지 않았을때
 1) 가상환경 활성화
 ```
 source activate [virtualEnv]
