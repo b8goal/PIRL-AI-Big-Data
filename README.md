@@ -60,15 +60,15 @@ vi custom.css
 ```
 source activate [virtualEnv]
 ```
-2. 가상환경에서 jupyter notebook 설치
+2) 가상환경에서 jupyter notebook 설치
 ```
 pip install ipykernel
 ```
-3. jupyter notebook에 가상환경 kernel 추가
+3) jupyter notebook에 가상환경 kernel 추가
 ```
 python -m ipykernel install --user --name [virtualEnv] --display-name "[displayKernelName]"
 ```
-4. jupyter notebook 실행해서 kernel 추가 확인
+4) jupyter notebook 실행해서 kernel 추가 확인
 ```
 jupyter notebook --ip=[ipAddress]
 ```
