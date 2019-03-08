@@ -55,7 +55,7 @@ vi custom.css
 .CodeMirror pre {font-family: Arial; font-size: 14pt; line-height: 140%;}
 ```
 
-##원격 데스크톱 가상환경이 세팅된 상황에서 jupyter notebook을 사용하고 싶은데, 가상환경 커널이 추가되지 않았을때##
+## 원격 데스크톱 가상환경이 세팅된 상황에서 jupyter notebook을 사용하고 싶은데, 가상환경 커널이 추가되지 않았을때
 1) 가상환경 활성화
 ```
 source activate [virtualEnv]
